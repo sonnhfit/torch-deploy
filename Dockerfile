@@ -1,1 +1,1 @@
-
+FROM pytorch/torchserve:latest
