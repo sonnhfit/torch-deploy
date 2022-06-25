@@ -8,3 +8,5 @@ services:
     command: torchserve --start --model-store model_store --models ...=....mar
     volumes:
      - ./src:/src
+     - ./scripts:/scripts
+     - ./model_store:/model_store
